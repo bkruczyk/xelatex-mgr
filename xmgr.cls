@@ -322,7 +322,7 @@ i~materialnych innych osób.\endgraf }
 % teraz składane od lewego marginesu. 
 \long\def\@makecaption#1#2{\par
   \vskip\abovecaptionskip
-  \begin{flushleft}\small\textbf{#1}. #2\end{flushleft}
+  \begin{center}\small\textbf{#1}. #2\end{center}
   %\vskip\belowcaptionskip 
   % niepotrzebne bo po caption winno być źródło
   \par
